@@ -1,0 +1,285 @@
+.wrapper {
+    margin: 25px;
+}
+
+.Face {
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 150px;
+    background-color: gray;
+}
+
+.REye{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    top: 95px;
+    left: 185px;
+    background-color: black;
+}
+
+#Rinnereye {
+    width: 20px;
+    height: 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    top: 15px;
+    left: px;
+    background-color: white;
+    }
+
+.LEye{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    top: 44px;
+    left: 80px;
+    background-color: black;
+}
+
+#Linnereye {
+    width: 20px;
+    height: 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    top: 13px;
+    left: 26px;
+    background-color: white;
+}
+
+.nose{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid lightpink;
+    position: relative;
+    top: 45px;
+    left: 140px;
+}
+
+#whiskers1 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(65deg);
+    top: -50px;
+    left: 25px;
+    background-color: black;
+}
+
+#whiskers2 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(90deg);
+    top: -75px;
+    left: 27px;
+    background-color: black;
+}
+
+#whiskers3 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(115deg);
+    top: -99px;
+    left: 26px;
+    background-color: black;
+}
+
+#whiskers4 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(65deg);
+    top: -130px;
+    right: 27px;
+    background-color: black;
+}
+
+#whiskers5 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(90deg);
+    top: -170px;
+    right: 28px;
+    background-color: black;
+}
+
+#whiskers6 {
+    width: 0;
+    height: 30px;
+    border: solid 1px black;
+    position: relative;
+    transform: rotate(115deg);
+    top: -209px;
+    right: 27px;
+    background-color: black;
+}
+
+.mouth {
+    width: 15px;
+    height: 3px;
+    border: solid 1px black;
+    border-radius: 25px 25px;
+    position: relative;
+    top: 70px;
+    left: 150px;
+    background-color: black;
+}
+
+.body {
+    width: 400px;
+    height: 350px;
+    border: solid 2px black;
+    border-radius: 150px;
+    position: relative;
+    z-index: -1;
+    top: -90px;
+    background-color: gray;
+    
+}
+
+.Rfoot {
+    width: 90px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    top: 254px;
+    left: 230px;
+    background-color: gray;
+}
+
+.Lfoot {
+    width: 90px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    top: 309px;
+    left: 80px;
+    background-color: gray;
+}
+
+.tail {
+    width: 10px;
+    height: 250px;
+    border: solid 2px black;
+    border-radius: 25px;
+    position: relative;
+    z-index: -2;
+    top: -620px;
+    left: 350px;
+    background-color: gray; 
+}
+
+.Rear {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 40px solid grey;
+    position: relative;
+    top: 79px;
+    left: 220px;
+    transform: rotate(30deg);
+}
+
+#innerRear {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid lightpink;
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    right: 18px;
+    transform: rotate(3deg);
+}
+
+.Lear {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 40px solid grey;
+    position: relative;
+    top: 37px;
+    left: 25px;
+    transform: rotate(-30deg);
+}
+
+#innerLear {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid lightpink;
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    right: 20px;
+    transform: rotate(-3deg);
+}
+
+#outerLear1 {
+    width: 0;
+    height: 45px;
+    border: solid 1px black;
+    position: relative;
+    bottom: 25px;
+    left: 12px;
+    transform: rotate(-35deg);
+}
+
+#outerLear2 {
+    width: 0;
+    height: 55px;
+    border: solid 1px black;
+    position: relative;
+    bottom: 75px;
+    right: 18px;
+    transform: rotate(37deg);
+}
+
+#outerRear1 {
+    width: 0;
+    height: 50px;
+    border: solid 1px black;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+    transform: rotate(-35deg);
+}
+
+#outerRear2 {
+    width: 0;
+    height: 47px;
+    border: solid 1px black;
+    position: relative;
+    bottom: 77px;
+    right: 16px;
+    transform: rotate(37deg);
+}
