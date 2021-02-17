@@ -46,15 +46,8 @@ var myObj = {
 } 
 typeValue = typeof myObj.num
 
-for (typeof in myObj){
-    typeValue === "boolean";
-    typeValue === "string";
-    typeValue === "number";
-    typeValue === "object";
-}
-    if true {
-console.log(typeValue)
-    }
-    else {
-        console.log("What are you?!")
-    }
+typeValue == 'number' ? console.log('number'):
+typeValue == 'boolean' ? console.log('boolean'):
+typeValue == 'string' ? console.log ('string'):
+typeValue == 'object' ? console.log ('object'):
+console.log('What are you?')
