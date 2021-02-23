@@ -18,6 +18,17 @@ let fellowshipOfTheRing = {
     formed: '25 October, 3018',
     dissolved: '26 February, 3019'
 }
+
+for (let names in fellowshipOfTheRing.members){
+    function vowelCheck(names){
+        var vowels = ['A', 'E', 'I', 'O', 'U'];
+        for (var i = 0; i < vowels.length; i++);
+        return true
+    }
+          console.log(`${names} does begin with a vowel`)
+   
+            console.log(`${names} does not begin with a vowel`)
+        
 /* 
 * SILVER
     - Add a conditional to the for in loop that checks if the characters name does not begin with a vowel. Then, using string interpolation, console.log either '__'s name does not begin with a vowel' or '__'s name does begin with a vowel'.
