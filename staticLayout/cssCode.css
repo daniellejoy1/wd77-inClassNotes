@@ -1,6 +1,6 @@
 body {
     background-color: #020405;
-    font-family: Catamaran;
+    font-family: 'Catamaran' , sans-serif;
     color: #333;
     font-size: 16px;
     line-height: 28px;
@@ -8,37 +8,47 @@ body {
 
   .banner {
     position: fixed;
+    display: inline-block;
   }
 
-  .openKastBtn {
-    position: fixed;
-    display: flex;
-    float: right;
-    
+  .navigation {
+    background-color: transparent;
+    top: 0;
+    width: 100%;
   }
-
-  .navButton {
-    background-color:lightgray 20%;
+  .navigation a{
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+  }
+  .navigation a:visited {
+    color: white;
+  }
+
+  .navigation a:active {
+    color: white;
   }
 
   .dropdown {
     position: fixed;
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-    background-color: gray;
+    top: 0;
+    left: 55%;
+    display: inline-flex;
+    justify-content: left;
     z-index: 1;
-    
+  }
+  
+
+  .navButton {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
   }
 
   .navBtnContent {
     display: none;
     position: absolute;
-    background-color: lightgray 20%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -51,19 +61,129 @@ body {
     display: block;
   }
 
-  .navBtnContent a:hover {background-color: lightgray;}
+  .navBtnContent a:hover {background-color: transparent;}
 
   .navButton:hover .navBtnContent {display: block;}
 
-  .dropdown:hover .navButton {background-color:lightgray;}
+  .dropdown:hover .navButton {background-color:transparent;}
+
+  .dropdown a:link {
+    color: white;
+    text-decoration: none;
+  }
 
   .purpleSection {
-    background-image: url(./assets/gradient-violet-bg.jpg)
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    background-size: 106%;
+    background-position: top;
   }
-.laptop {
+  .section-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .container-1 p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+  }
+
+#laptop {
   position: static;
+  padding-top: 150px;
+  padding-left: 25%; 
+  padding-right:25%; 
+  padding-bottom: 20px;
+
+}
+
+.whiteSection  {
   display: flex;
-  align-items:center
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+.container-2 {
+  margin-left: 25%;
 
+}
 
+.greenSection {
+  background-image: url(./assets/green-bg.jpg);
+  background-position: top;
+  background-repeat: repeat;
+}
+.container-3{
+  text-align: center;
+  color: white;
+}
+
+.container-3{
+  top: 0px;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 25px;
+}
+
+.description{
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.link1 {
+ display: flex;
+ justify-content: center;
+padding-bottom: 50px;
+}
+
+#openKastBtn2 {
+background-color: orange; 
+color: white;
+border: 2px solid orange;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 0px;
+padding-bottom: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-weight: bolder;
+}
+
+#openKastBtn1 {
+  background-color: orange; 
+  color: white;
+  border: 2px solid orange;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  }
+
+  .grid{
+  display: grid;
+   grid-template-columns: (auto, auto);
+   grid-template-rows: (auto, auto);
+  }
+
+  #openKastBtn {
+    font-size: 14px;
+    border: white 1px solid;
+    padding: 6px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+  }
 
