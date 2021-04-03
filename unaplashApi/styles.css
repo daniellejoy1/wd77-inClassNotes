@@ -1,0 +1,69 @@
+body {
+    background-color: tan;
+    font-family: cursive;
+  }
+/* 
+  h1 {
+    text-align: center;
+  }
+   */
+  h2 {
+    font-size: 20px;
+  }
+  
+  
+  nav {
+   /* flex-flow: row; */
+    margin-bottom: 50px;
+  }
+  
+  .search{
+    display: block;
+    
+    text-align: center;
+    font-family: cursive;
+  }
+  #search {
+      display: block;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #searchBtn {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .prev {
+    float: left;
+  }
+  
+  .next {
+    float: right;
+  }
+  
+  .photoContainer {
+    background-color: lightslategray;
+    opacity: 65%;
+    display: -webkit-inline-flex;
+    flex-wrap:wrap;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+  
+  img {
+    /* display: -webkit-inline-flex;
+    flex-wrap: wrap; */
+    border: ivory;
+    border-radius: 50%;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  
+  .clearfix {
+    clear:both;
+  }
+  
